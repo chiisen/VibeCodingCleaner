@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding Cleaner</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Vibe Coding Cleaner</h1>
+            <p>您的程式碼清理解決方案</p>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>什麼是 Vibe Coding Cleaner？</h2>
+                <p>{{ description }}</p>
+            </section>
+
+            <section class="features">
+                <h2>主要特色</h2>
+                <ul>
+                    <li v-for="(feature, index) in features" :key="index">
+                        {{ feature }}
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; {{ new Date().getFullYear() }} Vibe Coding Cleaner. 版權所有。</p>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

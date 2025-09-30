@@ -31,22 +31,22 @@
    npm install
    ```
 
-### Running the Application
+### 執行應用程式
 
-#### Development Mode
+#### 開發模式
 
 ```bash
 npm run dev
 ```
-This will start the development server with hot-reload at `http://localhost:3000`
+T這將啟動開發伺服器並支援熱重載，網址為 `http://localhost:3000`
 
-#### Production Mode
+#### 正式環境模式
 
 ```bash
 npm start
 ```
 
-## Project Structure
+## 專案結構
 
 ```
 VibeCodingCleaner/
@@ -60,12 +60,12 @@ VibeCodingCleaner/
 └── package.json            # 專案設定檔
 ```
 
-## Technologies Used
+## 使用技術
 
-- [Vue 3](https://v3.vuejs.org/) - Progressive JavaScript Framework
-- [Express](https://expressjs.com/) - Web application framework for Node.js
-- Vanilla CSS - For styling (no CSS frameworks)
+- [Vue 3](https://v3.vuejs.org/) - 漸進式 JavaScript 框架
+- [Express](https://expressjs.com/) - Node.js 的網頁應用程式框架
+- 原生 CSS - 樣式設計（不使用 CSS 框架）
 
-## License
+## 授權條款
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案。

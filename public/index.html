@@ -20,6 +20,26 @@
                 <p>{{ description }}</p>
             </section>
 
+            <section class="why-needed">
+                <h2>為什麼需要 Vibe Coding Cleaner？</h2>
+                <p>AI 工具雖然方便快速，但如果缺乏嚴謹的軟體工程流程和背景資訊的精準提供，會導致以下問題：</p>
+                <ul>
+                    <li v-for="(reason, index) in whyNeeded" :key="index">
+                        {{ reason }}
+                    </li>
+                </ul>
+            </section>
+
+            <section class="when-needed">
+                <h2>什麼情況下要找 Vibe Coding Cleaner 幫忙？</h2>
+                <p>以下是常見需要 Vibe Coding Cleaner 介入的情況：</p>
+                <ul>
+                    <li v-for="(situation, index) in whenNeeded" :key="index">
+                        {{ situation }}
+                    </li>
+                </ul>
+            </section>
+
             <section class="features">
                 <h2>主要特色</h2>
                 <ul>

@@ -50,6 +50,31 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.why-needed, .when-needed {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.why-needed ul, .when-needed ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.why-needed li, .when-needed li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.why-needed li:before, .when-needed li:before {
+    content: '⚠️';
+    position: absolute;
+    left: 0;
+}
+
 .features {
     background-color: white;
     padding: 2rem;
@@ -94,7 +119,7 @@ footer {
         margin-bottom: 2rem;
     }
     
-    .hero, .features {
+    .hero, .features, .why-needed, .when-needed {
         padding: 1.5rem;
     }
 }
